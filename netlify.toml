@@ -1,6 +1,6 @@
 [build]
   publish = "."
-  command = "npx tailwindcss -i ./src/styles.css -o ./styles.css"
+  command = "tailwindcss -i ./src/styles.css -o ./styles.css
 
 [[redirects]]
   from = "/*"
